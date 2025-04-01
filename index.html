@@ -1,46 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <!-- CSS pour l'ésthétique de la barre de recherche -->
-<head> 
+
+<head>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Présentation</title>
     <style>
-        .search-bar { position: fixed; top: 0; left: 0; width: 100%; padding: 10px; background: #333; color: white; display: flex; justify-content: center; z-index: 1000; }
-        .search-bar input { width: 50%; padding: 10px; border: none; border-radius: 4px; }
-        .search-bar button { padding: 10px; background: #4CAF50; color: white; border: none; cursor: pointer; border-radius: 4px; margin-left: 10px; }
-        body { padding-top: 60px; }
+        .search-bar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 10px;
+            background: #333;
+            color: white;
+            display: flex;
+            justify-content: center;
+            z-index: 1000;
+        }
+
+        .search-bar input {
+            width: 50%;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+        }
+
+        .search-bar button {
+            padding: 10px;
+            background: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px;
+            margin-left: 10px;
+        }
+
+        body {
+            padding-top: 60px;
+        }
     </style>
 </head>
 <!-- Barre de recherche non fonctionelle pour l'ésthétique du site -->
+
 <body>
     <div class="search-bar">
         <input type="text" placeholder="Rechercher..." id="searchInput">
         <button onclick="alert('Recherche pour: ' + document.getElementById('searchInput').value)">Rechercher</button>
     </div>
     <header>
+        <nav>
+            <ul>
+                <li>Présentation générale</li>
+                <li>Loisirs et intérêts</li>
+                <li>Parcours professionnel ou académique</li>
+                <li>Compétences de Jin-Woo</li>
+            </ul>
+
+        </nav>
         <h1 id="Le monarque des ombres Sung Jin Woo">Le monarque des ombres Sung Jin Woo</h1>
         <p>La véritable force se trouve dans la puissance de votre volonté." - Sung Jin-Woo</p>
         <img src="sung-jin-woo.gif"><img>
         <img src="Jin woo mon goat.gif"><img>
     </header>
     <main>
-        <section>   
+        <section>
             <h2> Présentation générale </h2>
             <p>Nom : Sung Jin-Woo</p>
             <p>Age : 25 ans</p>
             <p>Profession : Chasseur</p>
             <p>Ville : Séoul, en Corée du Sud</p>
         </section>
-<section>
-    <h2>Loisirs et intérêts</h2>
-    <ul>
-        <li>Nettoyer des donjons</li>
-        <li>Musculation</li>
-        <li>Sport de combat</li>
-    </ul>
-</section>
+        <section>
+            <h2>Loisirs et intérêts</h2>
+            <ul>
+                <li>Nettoyer des donjons</li>
+                <li>Musculation</li>
+                <li>Sport de combat</li>
+            </ul>
+        </section>
         <h2>Parcours professionnel ou académique</h2>
         <ol>
             <li>Début de carrière</li>
@@ -112,13 +152,21 @@
 
     <footer>
         <p>SUNG JIN-WOO</p>
-        <p>Lisez, jouez et  <span style="text-transform: uppercase;">regardez solo leveling </span> 
+        <p>Lisez, jouez et <span style="text-transform: uppercase;">regardez solo leveling </span>
             juste
             <a href="https://anime-sama.fr/catalogue/solo-leveling/"> ICI</a>
         </p>
         <a href="#Le monarque des ombres Sung Jin Woo">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20" id="Arrow-Up-1--Streamline-Core" height="20" width="20"><desc>Arrow Up 1 Streamline Icon: https://streamlinehq.com</desc><g id="arrow-up-1--arrow-up-keyboard"><path id="Union" fill="#000000" fill-rule="evenodd" d="M9.494928571428572 0.20921c0.27894285714285716 -0.2789464285714286 0.7312 -0.2789464285714286 1.010142857142857 0L15.505142857142857 5.209214285714286c0.20428571428571426 0.20428571428571426 0.2652857142857143 0.5115 0.15471428571428572 0.7784142857142857 -0.11057142857142857 0.2669142857142857 -0.371 0.44094285714285714 -0.6598571428571428 0.44094285714285714H11.428571428571429V18.571428571428573c0 0.789 -0.6396000000000001 1.4285714285714286 -1.4285714285714286 1.4285714285714286 -0.7889857142857142 0 -1.4285714285714286 -0.6395714285714286 -1.4285714285714286 -1.4285714285714286V6.428571428571429H5c-0.2889 0 -0.5493571428571429 -0.17402857142857142 -0.6599142857142858 -0.44094285714285714 -0.11055714285714285 -0.2669142857142857 -0.04944285714285715 -0.5741285714285714 0.15484285714285714 -0.7784142857142857l5 -5.000004285714286Z" clip-rule="evenodd" stroke-width="1.4286"></path></g></svg>
-             Retour en haut 
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20" id="Arrow-Up-1--Streamline-Core"
+                height="20" width="20">
+                <desc>Arrow Up 1 Streamline Icon: https://streamlinehq.com</desc>
+                <g id="arrow-up-1--arrow-up-keyboard">
+                    <path id="Union" fill="#000000" fill-rule="evenodd"
+                        d="M9.494928571428572 0.20921c0.27894285714285716 -0.2789464285714286 0.7312 -0.2789464285714286 1.010142857142857 0L15.505142857142857 5.209214285714286c0.20428571428571426 0.20428571428571426 0.2652857142857143 0.5115 0.15471428571428572 0.7784142857142857 -0.11057142857142857 0.2669142857142857 -0.371 0.44094285714285714 -0.6598571428571428 0.44094285714285714H11.428571428571429V18.571428571428573c0 0.789 -0.6396000000000001 1.4285714285714286 -1.4285714285714286 1.4285714285714286 -0.7889857142857142 0 -1.4285714285714286 -0.6395714285714286 -1.4285714285714286 -1.4285714285714286V6.428571428571429H5c-0.2889 0 -0.5493571428571429 -0.17402857142857142 -0.6599142857142858 -0.44094285714285714 -0.11055714285714285 -0.2669142857142857 -0.04944285714285715 -0.5741285714285714 0.15484285714285714 -0.7784142857142857l5 -5.000004285714286Z"
+                        clip-rule="evenodd" stroke-width="1.4286"></path>
+                </g>
+            </svg>
+            Retour en haut
         </a>
     </footer>
 
